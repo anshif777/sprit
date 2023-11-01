@@ -1,0 +1,315 @@
+@font-face {
+    font-family: ogg;
+    src: url(./AktivGroteskCd_W_Blk\ \(1\).ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color:rgb(73,155,79);
+    height: 100px;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+.navbar1 img{
+    width: 19vh;
+    margin-top: 4vh;
+    margin-left: 7vh;
+    align-items: center;
+}
+.navbar2{
+    color: white; 
+    display: flex;  
+    font-family: ogg;
+    align-items: center;
+
+    gap: 46px;
+    margin-left: 101px;
+    font-size: 14px;
+    transition: all ease 0.5s;       
+}
+.navbar2>P:hover{
+color: black;
+}
+.navbar3{
+    display: flex;
+    width: 29vh;    
+    margin-top: 4vh;
+    height: 8vh;
+    width: 35vh;
+    margin-left: 57vh;
+}
+.para1{
+        font-size: 20px;
+        color: white;
+        padding: 12px;
+        display: flex;
+        gap: 24px;     
+}
+.logo1{
+    transition: all ease 0.5s;
+}
+.logo1:hover{
+    color: black;
+}
+.video1{
+    transform: translateY(5vw);
+    width: 100vw;
+    overflow-x: hidden;
+}
+.video1 video{
+  width: 100%;
+  object-fit: cover;
+}
+.para2{
+    background-color:rgb(173,32,64) ;
+    height: 100vh;
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;      
+}
+.para3{
+    width: 110vh;
+    height: 60vh;
+     margin-top: 13vh;
+     margin-left: 50vh;
+}
+.para4>h1{
+    font-family: ogg;
+    color: white;
+    margin-left: 12vh;
+    font-size: 42px;
+}
+.para4>p{
+    font-family: ogg;
+    color: white;
+    margin-left: 14vh;
+    margin-top: 2vh;
+    font-size: 14px;
+}
+.para5>p{
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: ogg;
+    margin-left:15vh;
+}  
+.para5 button{
+    background-color: white;
+    height: 8vh;
+    margin-left: 14vh;
+    width: 95vh;
+    margin-top: 10px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+}
+.para5-1{
+    color: white; 
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: ogg;
+    margin-left:15vh;
+}
+.para6{
+    display: flex;
+}
+.para6-1 button{
+    background-color: white;
+    height: 8vh;
+    margin-left: 14vh;
+    width: 36vh;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-family: ogg;
+    font-size: 13px;
+    padding: 10px;
+    padding-right: 25vh;
+} 
+.para6-2 button{
+    background-color: white;
+    height: 8vh;
+    margin-left: 1vh;
+    width: 29vh;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-family: ogg;
+    font-size: 13px;
+    padding: 10px;
+    padding-right: 25vh;
+
+}
+.para6-3 button{
+    background-color: white;
+    height: 8vh;
+    margin-left: 1vh;
+    width: 29vh;
+    margin-top: 2vh;
+    border-radius: 30px;
+    font-family: ogg;
+    font-size: 13px;
+    padding: 10px;
+    padding-right: 25vh;
+}
+.para7{
+    color: white;
+    margin-left: 16vh;
+    font-family: ogg;
+    font-size: 13px;
+    margin-top: 2vh;
+}
+.para7 span{
+  text-decoration: underline;
+}
+.para7-1{
+    color: white;
+    font-family: ogg;
+    font-size: 12px;
+    margin-top: 2vh;
+    margin-left: 16vh;
+}
+.para7-1 span{
+text-decoration: underline;
+}
+.para7-2 button{
+    background-color: rgb(173,32,64);
+    height: 8vh;
+    margin-left: 14vh;
+    width: 92vh;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-family: ogg;
+    border-color: white;
+    margin-top: 7vh;
+}
+.para7-2 button:hover{
+    background-color: black;
+    color: rgb(173,32,64);
+}
+.para7-2 button>p{
+    color: white;
+}
+.para7-2 button>p:hover{
+    color:  rgb(173,32,64);
+}
+.banner2{
+    background-color: white;
+    height: 2vh;
+    width: 100%;
+    display: flex;
+}
+.banner2-1{
+    height: 55vh;
+    width: 100vh;
+    margin-top: 6vh;
+    margin-left: 16vh;
+}
+.banner2-2{
+    height: 69.9vh;
+    width: 80vh;
+    margin-top: 6vh;
+    overflow: hidden;
+}
+ .banner2-1>h1{
+    color:  #46963a;
+    font-family: ogg;
+    margin-top: 15vh;
+    font-size: 10vh;
+ }
+ .banner2-2 img{
+    width: 98vh;
+   margin-left: -10vh;
+ }
+.banner3{
+    width: 100%;
+    height: 75vh;
+    margin-top: 70.8vh;
+     background-color: #499b4f;  
+    overflow: hidden;
+}
+.banner3-1{
+   height: 70vh;
+}
+.bannerx{    
+    width: 160vh;   
+   height: 50vh;    
+   margin-left: 20vh;
+   margin-top: 8vh;
+   display: flex;
+}
+.banner3-2 {
+        width: 40vh;
+        height: 25vh;
+        margin-top: 5vh;
+        margin-left: 19vh;
+}
+.banner3-3{
+    overflow: hidden;
+}
+.banner3-3 img{
+    width: 55%;
+    margin-top: 5vh;
+}
+.banner3-4{
+    width: 50vh;
+    height: 40vh;
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+.banner3-4>p{
+    font-family: ogg;
+    color: white;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-left: 15px;
+}
+.banner3-5{
+    color: white;
+    margin-top: 6vh;
+    width: 5vh;
+    display: flex;
+    font-size: 26px;
+    margin-left: -5;
+}
+.banner3-6{
+    width: 60vh;
+    height: 40vh;
+    margin-top: 5vh;
+    margin-left: 10 vh;
+    color: white;
+}
+.banner3-6>p{
+    font-family: ogg;
+    font-size: 13px;
+}
+.banner3-6>p:hover{
+    color: black;
+}
+.banner3-7>p{
+    color: white;
+    text-align: center;
+    font-family: ogg;
+    font-size: 13px;
+}
+.banner3-8{
+    display: flex;
+    margin-left: 5vh;
+    justify-content: center;
+    gap: 2vh;
+}
+.banner3-8>p{
+    font-family: ogg;
+    color: white;
+    font-size: 13px;
+    margin-top: 4vh;
+}
+.banner3-8>p:hover{
+    color: black;
+}
